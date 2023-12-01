@@ -1,0 +1,35 @@
+#Finds the value of the first digit in a string
+def find_first_digit(string):
+    for char in string:
+        if char.isdigit():
+            return int(char)
+    return None
+    
+#Finds the value of the last digit in a string
+def find_last_digit(string):
+    for char in reversed(string):
+        if char.isdigit():
+            return int(char)
+    return None
+
+#Sets the running total of the combined first and last digits to 0 to start with
+RUNNING_TOTAL = 0
+
+with open("task_1.txt") as INPUT_FILE:
+    for line in INPUT_FILE:
+        input_string = line
+        first_digit = find_first_digit(input_string)
+        last_digit = find_last_digit(input_string)
+        
+        #converts the two digits into string value so I can join them together
+        first_digit_str = str(first_digit)
+        last_digit_str = str(last_digit)
+        join_digit = first_digit_str + last_digit_str
+
+        #Converts it back to an Integer so i can use it later to add all rows together.
+        join_digit_int = int(join_digit)
+
+        #Adds the current joint digits to the sum of digits prior (the running total)
+        RUNNING_TOTAL = RUNNING_TOTAL + join_digit_int
+
+print(RUNNING_TOTAL)
