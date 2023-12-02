@@ -3,7 +3,7 @@
     https://adventofcode.com/2023/day/NN
 
     John Tocher     
-    Solution to puzzle NN part 1
+    Starter code for puzzle NN
 """
 
 INPUT_FILE_NAME = "puzzle_NN_input_01_sample.txt"

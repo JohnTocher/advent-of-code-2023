@@ -7,7 +7,6 @@
 """
 
 INPUT_FILE_NAME = "puzzle_02_input_01.txt"
-
 CUBE_COLOURS = ["red", "green", "blue"]
 
 
