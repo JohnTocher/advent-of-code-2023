@@ -3,7 +3,8 @@
     https://adventofcode.com/2023/day/2
 
     John Tocher     
-    Solution to puzzle 02 part 1
+    Starter for puzzle 02
+    Reads the sample text from the puzzle description, but doesn't count anything properly!
 """
 
 INPUT_FILE_NAME = "puzzle_02_input_01_sample.txt"
@@ -34,13 +35,11 @@ def read_game_records():
             game_parts[1].strip().split(";")
         )  # list of csv text (number, colour) for this game
         count_sub_games = 0
-        cube_counts = dict()  # Empty dictionary
         for sub_game in sub_games:
             count_sub_games += 1
             sub_game_parts = sub_game.split(":")
+            game_name
             print(f"Game {count_games} sub game {count_sub_games} is {sub_game}")
-
-        result_list.append(cube_counts)
 
     return result_list
 
