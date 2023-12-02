@@ -13,13 +13,14 @@ This one is a fairly straightforward problem, nothing too subtle about it.
 ## Part 2
 [my solution](puzzle_01-part_2_jmt.py)
 
-TBA
+This one was a little more tricky, as there were two types of searches to do for each line. Se
 
 ```python puzzle_01-part_2_jmt.py```
 
 ## Gotchas
 
-TBA
+For part two, my initial attempt failed because I was only exiting the second, inner loop, which was iterating over the words in the word list, and the outer loop continued, potentially finding later entries in the line.
+
 
 # Raw text from web site
 
@@ -47,4 +48,22 @@ treb7uchet
 In this example, the calibration values of these four lines are 12, 38, 15, and 77. Adding these together produces 142.
 
 Consider your entire calibration document. What is the sum of all of the calibration values?
+
+--- Part Two ---
+
+Your calculation isn't quite right. It looks like some of the digits are actually spelled out with letters: one, two, three, four, five, six, seven, eight, and nine also count as valid "digits".
+
+Equipped with this new information, you now need to find the real first and last digit on each line. For example:
+
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+
+In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
+
+What is the sum of all of the calibration values?
 
