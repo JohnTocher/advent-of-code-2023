@@ -35,6 +35,12 @@ I've also created a "starter" solution, which provides a basic template for at l
 
 You certainly don't need to use my template, and there is no guarantee my solution will be the ideal, most efficient, or otherwise "best" solution, but I am trying to make them comprehensible.
 
+## How you can help
+
+Have a go.  Get involved in the discussions.  I don't mind being told something is a bad idea, or given a better alternative, just don't be a tool about it ;
+
+There is a "Discussions" option right near the top of the GitHub web page for the repo. Or just [click here](https://github.com/JohnTocher/advent-of-code-2023/discussions).
+
 ## Current status
 
 Puzzle 02 part 2 complete
