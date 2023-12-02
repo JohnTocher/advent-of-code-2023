@@ -6,7 +6,8 @@
 ## Part 1
 [my solution](puzzle_02-part_1_jmt.py)
 
-TBA
+Most of the work here is done in parsing the input data. This is pretty typcial in the real world too.  
+For some reason I initially added up the number of cubes for each of the sub-games, rather than calculating the highest number of each cube, which is what is required.
 
 ## Part 2
 [my solution](puzzle_02-part_2_jmt.py)

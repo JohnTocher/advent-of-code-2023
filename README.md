@@ -37,7 +37,7 @@ You certainly don't need to use my template, and there is no guarantee my soluti
 
 ## Current status
 
-About to attempt puzzle 02
+Puzzle 02 part 1 complete
 
 John Tocher  
 December 2023
