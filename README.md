@@ -35,11 +35,7 @@ I've also created a "starter" solution, which provides a basic template for at l
 
 You certainly don't need to use my template, and there is no guarantee my solution will be the ideal, most efficient, or otherwise "best" solution, but I am trying to make them comprehensible.
 
-## How you can help
-
-Have a go.  Get involved in the discussions.  I don't mind being told something is a bad idea, or given a better alternative, just don't be a tool about it ;
-
-There is a "Discussions" option right near the top of the GitHub web page for the repo. Or just [click here](https://github.com/JohnTocher/advent-of-code-2023/discussions).
+I have provided plain text versions of the puzzle inputs, but it's likely that your input data will be different - I'm not sure if that's the case or not, but please check that you're not using my data if you're getting unexpected results.  The site may provide different generated input for different users, but I haven't confirmed that.  I'd be happy for anyone to upload their own input for comparison.
 
 ## Current status
 
