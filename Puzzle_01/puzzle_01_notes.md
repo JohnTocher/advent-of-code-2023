@@ -8,19 +8,14 @@
 
 This one is a fairly straightforward problem, nothing too subtle about it.
 
-```python puzzle_01-part_1_jmt.py```
-
 ## Part 2
 [my solution](puzzle_01-part_2_jmt.py)
 
-This one was a little more tricky, as there were two types of searches to do for each line. Se
-
-```python puzzle_01-part_2_jmt.py```
+This one was a little more tricky, as there were two types of searches to do for each line.
 
 ## Gotchas
 
 For part two, my initial attempt failed because I was only exiting the second, inner loop, which was iterating over the words in the word list, and the outer loop continued, potentially finding later entries in the line.
-
 
 # Raw text from web site
 

@@ -27,7 +27,17 @@ All my solutions will be presented in python, but you can of course use somethin
 
 *Note:* You probably *can't* do this on a vanilla SOE box, although if you really want to, come and see me and we can sort that out too.  Getting python to run pretty much anywhere else should be straightforward, but again reach out if you run into any grief.
 
-Current status: Waiting for the 2023 session to kick off
+## How I can help
+
+Once I start a puzzle, I will upload the input data as a file you should be able to use to work on your solution. While this is often fairly trivial, it's one less thing you have to do, and reduces the chance of a simple transcription error ruining your day.
+
+I've also created a "starter" solution, which provides a basic template for at least starting to process the data.  It doesn't solve the problem, and has no real spoilers, so feel free to use that as a starting point, especially if python isn't your usual tool for this sort of thing.
+
+You certainly don't need to use my template, and there is no guarantee my solution will be the ideal, most efficient, or otherwise "best" solution, but I am trying to make them comprehensible.
+
+## Current status
+
+About to attempt puzzle 02
 
 John Tocher  
 December 2023
