@@ -8,18 +8,13 @@
 """
 
 INPUT_FILE_NAME = "puzzle_02_input_01_sample.txt"
-
 CUBE_COLOURS = ["red", "green", "blue"]
-
-# Incomplete!
-# Read the game records
 
 
 def read_game_records():
     """Reads the records line by line, returning a list of dictionaries
 
     each list element is dictionary of {colour:count}
-
     """
 
     result_list = list()

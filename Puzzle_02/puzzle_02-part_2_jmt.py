@@ -10,15 +10,24 @@ INPUT_FILE_NAME = "puzzle_02_input_01.txt"
 
 CUBE_COLOURS = ["red", "green", "blue"]
 
-# Incomplete!
-# Read the game records
+
+def calc_cube_power(cube_data):
+    """Calculates the cube power"""
+
+    power_product = 1
+
+    for cube_colour in CUBE_COLOURS:
+        # this_num = cube_data.get(cube_colour, 0)  # Use 0 if not present
+        this_num = cube_data[cube_colour]
+        power_product *= this_num
+
+    return power_product
 
 
 def read_game_records():
     """Reads the records line by line, returning a list of dictionaries
 
     each list element is dictionary of {colour:count}
-
     """
 
     result_list = list()
@@ -49,7 +58,6 @@ def read_game_records():
                 else:
                     new_count = cube_count
                 cube_counts[cube_colour] = new_count  # Update or create the value
-                # print(f"    >> {cube_counts=}")
             # print(f"Cube counts for game {count_games:03}: {cube_counts}")
 
         result_list.append(cube_counts)
@@ -60,27 +68,10 @@ def read_game_records():
 game_records = read_game_records()
 print(f"It looks like I have {len(game_records)} records")
 
-max_values = dict()
-max_values["red"] = 12
-max_values["green"] = 13
-max_values["blue"] = 14
-
-game_id = 0
-id_sum = 0
+power_sum = 0
 
 for test_game in game_records:
-    game_id += 1  # Our games are in order in the list, so this is OK, if not ideal
-    game_is_possible = True
-    for test_colour in CUBE_COLOURS:
-        if test_game[test_colour] > max_values[test_colour]:
-            game_is_possible = False
+    power_set = calc_cube_power(test_game)
+    power_sum += power_set
 
-    if game_is_possible:
-        id_sum += game_id
-        # print(f"{game_id:03} {test_game} OK")
-    else:
-        pass
-        # print(f"{game_id:03} {test_game} Failed")
-
-
-print(f"Sum of ids for possible games is {id_sum}")
+print(f"Sum of powers is {power_sum}")
