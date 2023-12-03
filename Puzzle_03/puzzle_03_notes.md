@@ -6,16 +6,18 @@
 ## Part 1
 [my solution](puzzle_03-part_1_jmt.py)
 
-Parsing the input takes some thought, but isn't overly complex.  I'm wondering if there might be some vertial serial numbers in there in part 2.
-I decided to do two passes, one to get the symbol locations, and another to get the digits for part numbers. It would certainly be possible to do both in a single pass, but I thought it would be more difficult to both read and debug.  
+Parsing the input takes some thought, but isn't overly complex.  I'm wondering if there might be some vertical serial numbers in there in part 2.  
+
+I decided to do two passes, one to get the symbol locations, and another to get the digits for part numbers. While it would certainly be possible to do both in a single pass, I thought it would be more difficult to both read and debug.  
 
 I also decided to keep it simple and not do any floating point math to calculate the actual distances between points.  For a simple grid like this, as long as both dX and dY are less than two, we are near enough! No pythagorean calculations required.
-
 
 ## Part 2
 [my solution](puzzle_03-part_2_jmt.py)
 
-TBA
+This one wasn't as difficult as I first thought it might be. Although, it turns out, my previous filter argorithm looped over the serial number locations first, and then looped over the symbol locations inside that.  An arbitrary choice, but the inferior one for part two, where we had to filter on the symbols first, and care mostly about them, being proper gears.  
+
+The loop nesting isn't too deep, and I hope not too messy or convoluted, but I'd lie to hear back from others trying to look at it and understand my approach.  
 
 ## Gotchas
 
