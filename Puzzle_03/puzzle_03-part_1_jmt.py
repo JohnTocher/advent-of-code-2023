@@ -107,7 +107,7 @@ def filter_schematic(symbol_locations, part_data):
         for digit_loc in part_locations:
             for symbol_loc in symbol_locations:
                 delta_row = abs(digit_loc[1] - symbol_loc[1])
-                if delta_row < 2:  # Same or adjance rows
+                if delta_row < 2:  # Same or adjacent rows
                     delta_col = abs(digit_loc[0] - symbol_loc[0])
                     if delta_col < 2:
                         part_is_valid = True

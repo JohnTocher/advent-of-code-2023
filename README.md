@@ -45,7 +45,7 @@ There is a "Discussions" option right near the top of the GitHub web page for th
 
 ## Current status
 
-Puzzle 03 part 1 complete
+Puzzle 03 complete
 
 John Tocher  
 December 2023

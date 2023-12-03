@@ -17,7 +17,7 @@ I also decided to keep it simple and not do any floating point math to calculate
 
 This one wasn't as difficult as I first thought it might be. Although, it turns out, my previous filter argorithm looped over the serial number locations first, and then looped over the symbol locations inside that.  An arbitrary choice, but the inferior one for part two, where we had to filter on the symbols first, and care mostly about them, being proper gears.  
 
-The loop nesting isn't too deep, and I hope not too messy or convoluted, but I'd lie to hear back from others trying to look at it and understand my approach.  
+The loop nesting isn't too deep, and I hope not too messy or convoluted, but I'd like to hear back from others trying to look at it and understand my approach.
 
 ## Gotchas
 
@@ -84,4 +84,3 @@ Consider the same engine schematic again:
 In this schematic, there are two gears. The first is in the top left; it has part numbers 467 and 35, so its gear ratio is 16345. The second gear is in the lower right; its gear ratio is 451490. (The * adjacent to 617 is not a gear because it is only adjacent to one part number.) Adding up all of the gear ratios produces 467835.
 
 What is the sum of all of the gear ratios in your engine schematic?
-
