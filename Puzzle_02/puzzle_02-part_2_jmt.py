@@ -6,7 +6,7 @@
     Solution to puzzle 02 part 2
 """
 
-INPUT_FILE_NAME = "puzzle_02_input_01.txt"
+INPUT_FILE_NAME = "puzzle_02_input_01_full_jmt.txt"
 CUBE_COLOURS = ["red", "green", "blue"]
 
 
@@ -74,3 +74,4 @@ for test_game in game_records:
     power_sum += power_set
 
 print(f"Sum of powers is {power_sum}")
+print(f"Correct answer for John's input data was {65122}")

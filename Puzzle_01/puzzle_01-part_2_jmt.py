@@ -6,7 +6,7 @@
     Solution to puzzle 01 part 2
 """
 
-INPUT_FILE_NAME = "puzzle_01_input_01.txt"
+INPUT_FILE_NAME = "puzzle_01_input_01_full_jmt.txt"
 
 DIGITS_AS_TEXT = [
     "one",
@@ -71,3 +71,4 @@ for single_line in open(INPUT_FILE_NAME, "r").readlines():
     # print(f"This line {this_number} Total: {answer_total}")
 
 print(f"Calculated a total of {answer_total} over {count_lines} lines")
+print(f"Correct answer for John's input data was {53866}")

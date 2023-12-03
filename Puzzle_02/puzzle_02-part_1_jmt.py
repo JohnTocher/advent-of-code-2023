@@ -6,7 +6,7 @@
     Solution to puzzle 02 part 1
 """
 
-INPUT_FILE_NAME = "puzzle_02_input_01.txt"
+INPUT_FILE_NAME = "puzzle_02_input_01_full_jmt.txt"
 CUBE_COLOURS = ["red", "green", "blue"]
 
 
@@ -73,3 +73,4 @@ for test_game in game_records:
         id_sum += game_id
 
 print(f"Sum of ids for possible games is {id_sum}")
+print(f"Correct answer for John's input data was {2879}")

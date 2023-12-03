@@ -31,7 +31,9 @@ All my solutions will be presented in python, but you can of course use somethin
 
 Once I start a puzzle, I will upload the input data as a file you should be able to use to work on your solution. While this is often fairly trivial, it's one less thing you have to do, and reduces the chance of a simple transcription error ruining your day.
 
-I've also created a "starter" solution, which provides a basic template for at least starting to process the data.  It doesn't solve the problem, and has no real spoilers, so feel free to use that as a starting point, especially if python isn't your usual tool for this sort of thing.
+It's important ot note, though, if you test your code against my data, you will be getting the results for my data, which won't get you your your stars on the AoC web site, and unlock the next puzzle.  I'll provide my expected output, so you can keep going, but if you want to progress on the official site, you'll have to submit the correct response calculated against your own data.  Let me know if this is unclear, and I'll walk you through it.  Essentially you have to save the data provided on the web site for your login to a text file, and run your code against that.  The "sample" data sets should be the same for everyone, and are a good sanity check.
+
+I've also created a "starter" solution, which provides a basic template for at least starting to process the data.  It doesn't solve the problem, and has no real spoilers, so feel free to use that as a starting point, especially if python isn't your usual tool for this sort of thing, or you're at a loss as to how to get started.
 
 You certainly don't need to use my template, and there is no guarantee my solution will be the ideal, most efficient, or otherwise "best" solution, but I am trying to make them comprehensible.
 
