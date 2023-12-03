@@ -6,8 +6,10 @@
 ## Part 1
 [my solution](puzzle_03-part_1_jmt.py)
 
-Parsing the input takes some thought, but isn't ovely complex.  
-I decided to do two passes, one to get the symbol locations, and another to get the digits for part numbers. It is possible to do both in a single pass, but I thought it would be more diffult to both read and debug.
+Parsing the input takes some thought, but isn't overly complex.  I'm wondering if there might be some vertial serial numbers in there in part 2.
+I decided to do two passes, one to get the symbol locations, and another to get the digits for part numbers. It would certainly be possible to do both in a single pass, but I thought it would be more difficult to both read and debug.  
+
+I also decided to keep it simple and not do any floating point math to calculate the actual distances between points.  For a simple grid like this, as long as both dX and dY are less than two, we are near enough! No pythagorean calculations required.
 
 
 ## Part 2
