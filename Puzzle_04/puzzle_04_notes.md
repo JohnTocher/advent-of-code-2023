@@ -6,7 +6,8 @@
 ## Part 1
 [my solution](puzzle_04-part_1_jmt.py)
 
-TBA
+This one was not much harder than previous puzzles in python.  I ended up saving more card data in the dictionary
+than was unnecessary as it turns out, maybe it will be handy in part 2!
 
 ## Part 2
 [my solution](puzzle_04-part_2_jmt.py)
@@ -15,7 +16,10 @@ TBA
 
 ## Gotchas
 
-TBA
+Python's split function doesn't ignore multiple consecutive delimeters, which sort of makes sense if you think of 
+blank entries in a csv list such as 1,2,,,5 
+It is reasonably obvious it is missing values 3 and 4, there will be 5 entries in a comma split list, two of them empty
+This is harder to spot in space separated data, where you might not want "1  3" to have an empty middle value
 
 # Raw text from the advent of code web site
 
