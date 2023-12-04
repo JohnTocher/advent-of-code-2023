@@ -46,10 +46,11 @@ There is a "Discussions" option right near the top of the GitHub web page for th
 ## Current status
 
 Puzzle 03 complete
+Puzzle 04 released and text uploded, not yet attempted
 
 John Tocher  
 December 2023
 
 ## Puzzle notes pages
 
-[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md)
+[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md) - [04](Puzzle_04/puzzle_04_notes.md)
