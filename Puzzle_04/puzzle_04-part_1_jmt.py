@@ -29,34 +29,33 @@ def read_game_results():
 
             # We can then safely turn our list of numbers as text into a list of integers
             # with a list comprehension
-            card_winners = [int(text_num) for text_num in card_win_text.split(" ")]
-            card_numbers = [int(text_num) for text_num in card_have_text.split(" ")]
+            winning_numbers = [int(text_num) for text_num in card_win_text.split(" ")]
+            numbers_we_have = [int(text_num) for text_num in card_have_text.split(" ")]
 
             # Store of values in a dictionary
             card_detail["number"] = card_number
-            card_detail["winners"] = card_winners
-            card_detail["have"] = card_number
+            card_detail["winners"] = winning_numbers
+            card_detail["have"] = numbers_we_have
 
             # Calculate the number of winning numbers we have
             num_winners = 0
             card_points = 0
-            for each_winner in card_winners:
-                if each_winner in card_numbers:
+            for each_winner in winning_numbers:
+                if each_winner in numbers_we_have:
                     num_winners += 1
 
             if num_winners:
                 card_points = pow(2, num_winners - 1)
                 # This is a way to write 2 to the power of (num_winners-1)
                 # You can also use ** for exponents, but I thought this might be
-                # confiusing for the hard core C programmers!
+                # confusing for the hard core C programmers. No pointers here
             card_detail["points"] = card_points
 
             # Save our results dictionary to the list
             result_list.append(card_detail)
 
-            # print(
-            #    f"Card {card_number}:{card_winners} | {card_numbers} for {card_points} points"
-            # )  # Reproduce input format for a check
+            # Reproduce the input format (almost) for a sanity check
+            # print(f"Card {card_number}:{card_winners} | {card_numbers} for {card_points} points")
 
     return result_list
 
