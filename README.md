@@ -45,8 +45,7 @@ There is a "Discussions" option right near the top of the GitHub web page for th
 
 ## Current status
 
-Puzzle 03 complete
-Puzzle 04 released and text uploded, not yet attempted
+Puzzle 05 part 1 complete, part 2 not yet attempted
 
 John Tocher  
 December 2023

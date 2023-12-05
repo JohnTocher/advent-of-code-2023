@@ -11,7 +11,7 @@ The setup for this puzzle is quite a complex parsing job, but once the work is d
 ## Part 2
 [my solution](puzzle_05-part_2_jmt.py)
 
-Not completed yet.  Expanding the new seed lisst info would be the brute force solution, but it looks like that will result in ridiculously long lists.  That may not matter, I haven't actually tried it yet.
+Not completed yet.  Expanding the new seed lisst info would be the obvious brute force solution, but it looks like that will result in ridiculously long lists.  That may not matter, I haven't actually tried it yet.
 
 ## Gotchas
 
