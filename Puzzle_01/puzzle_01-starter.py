@@ -6,7 +6,7 @@
     Starter code - a simple example - no spoilers!
 """
 
-INPUT_FILE_NAME = "puzzle_01_input_01.txt"
+INPUT_FILE_NAME = "puzzle_01_input_01_sample.txt"
 
 # Parts one and two use the same data input, but there are also two 'sample' data sets
 # extracted from the puzzle descriptions on the web site
