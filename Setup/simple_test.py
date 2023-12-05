@@ -1,6 +1,6 @@
 """ Simple test code
 
-    this code will do the abolsute bare minimu to check that you have a
+    This code will do the the bare minimum to check that you have a
     functioning version of python
 
     When run, it will print details about your python version
