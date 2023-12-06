@@ -46,9 +46,10 @@ There is a "Discussions" option right near the top of the GitHub web page for th
 ## Current status
 
 Puzzle 05 part 1 complete, part 2 not yet attempted
+Templates uploaded up to Day 08, but I'll be a little bit off-line for a day or two, aiming to catch up on the weekend.
 
 John Tocher  
-December 2023
+Thu 7 December 2023
 
 ## Puzzle notes pages
 
