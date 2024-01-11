@@ -52,4 +52,4 @@ December 2023
 
 ## Puzzle notes pages
 
-[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md) - [04](Puzzle_04/puzzle_04_notes.md)
+[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md) - [04](Puzzle_04/puzzle_04_notes.md) - [05](Puzzle_05/puzzle_05_notes.md) - [06](Puzzle_06/puzzle_06_notes.md)

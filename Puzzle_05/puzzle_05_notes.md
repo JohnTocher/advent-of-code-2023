@@ -11,7 +11,15 @@ The setup for this puzzle is quite a complex parsing job, but once the work is d
 ## Part 2
 [my solution](puzzle_05-part_2_jmt.py)
 
-Not completed yet.  Expanding the new seed lisst info would be the obvious brute force solution, but it looks like that will result in ridiculously long lists.  That may not matter, I haven't actually tried it yet.
+Not completed yet.  Expanding the new seed list info would be the obvious brute force solution, but it looks like that will result in ridiculously long lists.  That may not matter, I haven't actually tried it yet.
+
+Input range:                X     Y
+Map range:            A  B                  Case 1 - no overlap - Use X
+Map range                A     B            Case 2 - Min is X               Split right
+Map range                     A B           Case 3 - Min is A
+Map range                     A      B      Case 4 - Min is A               Split left
+Map range                           A B     Case 5 - no overlap - Use X
+Map range           A                  B    Case 6 - Min is X               Use as-is
 
 ## Gotchas
 
