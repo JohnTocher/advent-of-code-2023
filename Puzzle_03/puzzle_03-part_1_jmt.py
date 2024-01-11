@@ -7,6 +7,7 @@
 """
 
 INPUT_FILE_NAME = "puzzle_03_input_01_full_jmt.txt"
+I# NPUT_FILE_NAME = "puzzle3_data_ettore.txt"
 
 symbol_locations = list()
 
@@ -134,9 +135,12 @@ print(f"Found {len(part_data)} parts from {len(schematic_lines)} lines")
 valid_parts = filter_schematic(symbol_locs, part_data)
 print(f"Found {len(valid_parts)} valid parts")
 
+# print(f"{valid_parts}")
+
 part_number_sum = 0
 for single_part in valid_parts:
     part_number_sum += single_part["value"]
+    print(f"{single_part['value']},",end='')
 
-print(f"Sum of valid part numbers is {part_number_sum}")
 print(f"Expected answer for John's input data is {549908}")
+print(f"Sum of valid part numbers is {part_number_sum}")
