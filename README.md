@@ -46,10 +46,12 @@ There is a "Discussions" option right near the top of the GitHub web page for th
 ## Current status
 
 Puzzle 05 part 1 complete, part 2 not yet attempted
+Templates uploaded up to Day 08, but I'll be a little bit off-line for a day or two, aiming to catch up on the weekend.
 
 John Tocher  
-December 2023
+Thu 7 December 2023
 
 ## Puzzle notes pages
 
-[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md) - [04](Puzzle_04/puzzle_04_notes.md) - [05](Puzzle_05/puzzle_05_notes.md) - [06](Puzzle_06/puzzle_06_notes.md)
+[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md) - [04](Puzzle_04/puzzle_04_notes.md) - [05](Puzzle_05/puzzle_05_notes.md)
+[06](Puzzle_06/puzzle_06_notes.md) - [07](Puzzle_07/puzzle_07_notes.md) - [08](Puzzle_08/puzzle_08_notes.md) - 

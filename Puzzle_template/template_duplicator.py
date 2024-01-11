@@ -69,4 +69,4 @@ def create_puzzle_folders(folder_number=1):
 
 
 if __name__ == "__main__":
-    create_ok = create_puzzle_folders(folder_number=5)
+    create_ok = create_puzzle_folders(folder_number=8)
